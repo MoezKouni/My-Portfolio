@@ -1,0 +1,15 @@
+[0503/235332.628:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Accès refusé. (0x5)
+[0504/005301.124:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Accès refusé. (0x5)
+[0504/144250.532:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Accès refusé. (0x5)
+[0504/144250.602:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Accès refusé. (0x5)
+[0504/144250.618:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Le canal de communication a été fermé. (0x6D)
+[0504/144255.966:ERROR:crashpad_win.cc(223)] Crashpad handler failed to start, crash reporting disabled
+[0505/001856.829:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Accès refusé. (0x5)
+[0506/002419.650:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Accès refusé. (0x5)
+[0506/002419.749:ERROR:persistent_memory_allocator.cc(738)] Corruption detected in shared-memory segment.
+[0506/002419.751:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Accès refusé. (0x5)
+[0506/144252.198:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Accès refusé. (0x5)
+[0506/153607.831:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Accès refusé. (0x5)
+[0506/160953.232:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Accès refusé. (0x5)
+[0510/130420.736:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Accès refusé. (0x5)
+[0510/130421.064:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\temp\settings.dat: Accès refusé. (0x5)

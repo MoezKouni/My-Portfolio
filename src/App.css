@@ -1,0 +1,291 @@
+.header-color{
+	background: linear-gradient(270deg, #df49d9, #7b49df, #4981df, #49b6df, #49dfa5, #49dfa5);
+	background-size: 1200% 1200%;
+	-webkit-animation: AnimationName 20s ease infinite;
+	-moz-animation: AnimationName 20s ease infinite;
+	animation: AnimationName 20s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.landing-grid{
+	background: linear-gradient(270deg, #df49d9, #7b49df, #4981df, #49b6df, #49dfa5, #49dfa5);
+	background-size: 1200% 1200%;
+	-webkit-animation: AnimationName 20s ease infinite;
+	-moz-animation: AnimationName 20s ease infinite;
+	animation: AnimationName 20s ease infinite;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.avatar-img{
+	height: 250px;
+	padding-top: 5em;
+	animation: anim .8s ease-out 0s 1;
+}
+
+.banner-text{
+	background-color: black;
+	opacity: .7;
+	width: 75%;
+	margin: auto;;
+	border-radius: 10px;
+	animation: anim5 .8s ease-out 0s 1;
+}
+
+.banner-text h1{
+	font-size: 66px;
+	font-weight: bold;
+	color: white;
+}
+
+.banner-text hr{
+	border-top: 5px dotted white;
+	width: 50%;
+	margin: auto;
+}
+
+.banner-text p{
+	font-size: 20x;
+	padding: 1em;
+	color: white;
+}
+
+.social-links{
+	display: flex;
+	justify-content: space-between;
+	width: 15%;
+	margin: auto;
+	}
+.social-links i{
+	color: white;
+	font-size: 5em;
+	padding: 8px;
+}
+
+.social-links i:hover{
+	color: darkgrey;
+}
+
+
+.projects-grid{
+	display: flex;
+}
+
+.projects-grid button{
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+.contact-body{
+	margin: auto;
+	background: white;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	padding-top: 2em;
+
+}
+
+.contact-grid{
+	text-align: center;
+	justify-content: center;
+	width: 80%;
+	height: 550px;
+	background: white;
+	color: black;
+	margin-bottom: 20px;
+}
+
+.contact-grid h2{
+	font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p{
+	font-family: 'Oxygen', sans-serif;
+	font-weight: bold;
+}
+
+.contact-grid hr{
+	border-top:  5px dotted black;
+	width: 50%;
+	margin: auto;
+}
+
+.contact-list i{
+	font-size: 66px;
+	padding-right: 5rem;
+}
+
+.resume-right-col{
+	background: #27221F;
+	color: white;
+	padding: 2em;
+	animation: anim2 1s ease-out 0s 1;
+}
+
+.anim{
+	animation: anim .4s ease-out 0s 1;
+}
+
+@keyframes anim {
+	0%{
+		transform: translateX(-100%);
+	}
+	100%{
+		transform: translateX(0);
+	}
+}@keyframes anim2 {
+	0%{
+		transform: translateX(-100%);
+	}
+	100%{
+		transform: translateX(0);
+	}
+}
+
+@keyframes anim5{
+	0%{
+		transform: translateX(100%);
+	}
+	100%{
+		transform: translateX(0);
+}
+}
+
+.projects-anim1{
+	animation: projectanim1 .5s ease-out 0s 1;
+}
+
+@keyframes projectanim1{
+	0%{
+		transform: translateY(-100%);
+	}
+	100%{
+		transform: translateY(0);
+	}
+}
+
+.projects-anim2{
+	animation: projectanim2 .7s ease-out 0s 1;
+}
+
+@keyframes projectanim2{
+	0%{
+		transform: translateY(-100%);
+	}
+	100%{
+		transform: translateY(0);
+	}
+}
+
+
+.projects-anim3{
+	animation: projectanim3 1s ease-out 0s 1;
+}
+
+@keyframes projectanim3{
+	0%{
+		transform: translateY(-100%);
+	}
+	100%{
+		transform: translateY(0);
+	}
+}
+
+.projects-tab0 {
+	animation: projecttab0 .5s ease-out 0s 1;
+}
+
+@keyframes projecttab0{
+	0%{
+		transform: translateX(100%);
+	}
+	100%{
+		transform: translateX(0);
+	}
+}
+
+.category-tabs{
+	animation: tabanim 1s ease-out 0s 1;
+}
+
+@keyframes tabanim{
+	0%{
+		transform: translateX(100%);
+	}
+	100%{
+		transform: translateX(0);
+	}
+}
+
+.textanim{
+	animation: textanim 1s ease-out 0s 1;
+}
+
+@keyframes textanim{
+	0%{
+		transform: translateX(-50%);
+	}
+	100%{
+		transform: translateX(0);
+	}
+}
+
+.skillsanim{
+	animation: skillsanim 1s ease-out 0s 1;	
+}
+
+@keyframes skillsanim{
+	0%{
+		transform: translateX(100%);
+	}
+	100%{
+		transform: translateX(0);
+	}
+}
+
+.FB{
+	animation: fbanim 1.5s ease-out 0s 1;	
+}
+
+@keyframes fbanim{
+	0%{
+		transform: translateY(100%);
+	}
+	100%{
+		transform: translateY(0);
+	}
+}
+
+.linked{
+	animation: linkedanim 1s ease-out 0s 1;	
+}
+
+@keyframes linkedanim{
+	0%{
+		transform: translateY(100%);
+	}
+	100%{
+		transform: translateY(0);
+	}
+}
